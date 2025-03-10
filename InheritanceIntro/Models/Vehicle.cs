@@ -7,6 +7,14 @@ public class Vehicle {
         Console.WriteLine("Vehicle constructor!");
     }
 
+    public virtual void Drive() {
+        Console.WriteLine("Vehicle is moving!");
+    }
+
+    public virtual void Stop() {
+        Console.WriteLine("Vehicle has stopped.");
+    }
+
     private void MaintenanceCheck() {
         Console.WriteLine("Performing maintenance check.");
     }
