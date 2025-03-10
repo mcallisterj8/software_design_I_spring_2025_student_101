@@ -3,7 +3,7 @@ public class Airplane {
     public int MaxAltitude { get; private set; }
     public decimal FuelLevel { get; private set; }
 
-    public Airplane(){}
+    public Airplane() { }
     
     public Airplane(string givenName, int maxAlt, decimal fuelLevel) {
         this.Name = givenName;
