@@ -5,4 +5,8 @@ public class ElectricCar : Automobile {
         Console.WriteLine("ElectricCar constructor!");
     }
 
+    public override string ToString() {
+        return $"Name: {this.Name} | License Plate: {this.LicensePlate}";
+    }
+
 }
