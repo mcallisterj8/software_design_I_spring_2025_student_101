@@ -8,19 +8,18 @@ public class Vehicle {
     }
 
     public virtual void Drive() {
-        Console.WriteLine("Vehicle is moving!");
+        Console.WriteLine("Vehicle is moving");
     }
 
     public virtual void Stop() {
-        Console.WriteLine("Vehicle has stopped.");
+        Console.WriteLine("Vehicle has stopped");
     }
 
     private void MaintenanceCheck() {
-        Console.WriteLine("Performing maintenance check.");
+        Console.WriteLine("Performing maintenance check");
     }
 
     protected void DisplayManufacturer() {
-        Console.WriteLine($"Manufacturer: {this.Manufacturer}.");
+        Console.WriteLine("Manufacturer: " + this.Manufacturer);
     }
-
 }
