@@ -4,7 +4,7 @@ public class Airplane : Vehicle {
     protected int NumEngines { get; set; }
 
     public Airplane(string airline, int maxAltitude, int numEngines) {        
-        this.Airline = airline;
+        this.Airline = airline;        
         this.MaxAltitude = maxAltitude;
         this.NumEngines = numEngines;
     }
