@@ -45,9 +45,9 @@ string json = File.ReadAllText(jsonFilePath);
 Company? companyA
     = JsonSerializer.Deserialize<Company>(json);
 
-
+Employee singleEmployee = companyA.Employees[0];
 
 Console.WriteLine("\n");
-Console.WriteLine($"Company Name: {companyA.Name}");
+Console.WriteLine($"Company: {JsonSerializer.Serialize(companyA)}");
 Console.WriteLine("\n");
 
