@@ -7,7 +7,6 @@ Boat boatOne = new Boat(30.5, true, "Yacht");
 Vehicle test = new Airplane("Delta", 35000, 2);
 test = new Boat(30.5, true, "Yacht");
 
-
 List<Vehicle> vehicleList = new List<Vehicle>();
 vehicleList.Add(vehicleOne);
 vehicleList.Add(airplaneOne);
@@ -17,7 +16,7 @@ vehicleList.Add(boatOne);
 
 Console.WriteLine("\n");
 foreach(Vehicle elem in vehicleList) {
-    elem.Drive();
+    elem.Drive();    
     
 }
 Console.WriteLine("\n");
