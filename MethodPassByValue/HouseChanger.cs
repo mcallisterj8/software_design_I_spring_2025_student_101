@@ -1,5 +1,7 @@
 public static class HouseChanger {
 
+    public static string Test {get; set;} = "Test";
+
     /*
 	 * What would you expect the variable in the Program.cs which was passed in
 	 * for "heightOne" here to be after this method call?
