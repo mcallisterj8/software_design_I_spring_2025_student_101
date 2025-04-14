@@ -1,5 +1,7 @@
 using System.Numerics;
 
+namespace GenericMethods.Models;
+
 public class Toolbox {
     public required string Name { get; set; }
 

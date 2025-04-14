@@ -1,3 +1,5 @@
+namespace GenericMethods.Models;
+
 public class Android : Phone {
     public static string Browser { get; } = "Chrome";
     public List<string> Commands = new List<string> { "Ok Google", "Check Email" };

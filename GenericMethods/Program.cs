@@ -1,4 +1,11 @@
-﻿iPhone iphoneA = new iPhone { Name = "apple" };
+﻿using GenericMethods.Models;
+
+using ExampleToolbox = GenericMethods.Example.Toolbox;
+
+ExampleToolbox test = new ExampleToolbox {};
+
+
+iPhone iphoneA = new iPhone { Name = "apple" };
 iPhone iphoneB = new iPhone { Name = "berry" };
 iPhone iphoneC = new iPhone { Name = "cherry" };
 iPhone iphoneD = new iPhone { Name = "kiwi" };
